@@ -1,6 +1,5 @@
 document.addEventListener('DOMContentLoaded',function(){
     let str = 'Hello';
-
     function findVowels(str) {
         let count = 0;
         const vowels = ['a', 'e', 'i', 'o'];
@@ -12,5 +11,5 @@ document.addEventListener('DOMContentLoaded',function(){
         return count;
     }
 
-    //console.log(findVowels(str));
+    console.log(findVowels(str));
 });
