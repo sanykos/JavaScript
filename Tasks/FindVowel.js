@@ -11,5 +11,5 @@ document.addEventListener('DOMContentLoaded',function(){
         return count;
     }
 
-    console.log(findVowels(str));
+    //console.log(findVowels(str));
 });
